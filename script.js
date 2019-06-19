@@ -1,25 +1,11 @@
-#art {
-    display: table;
-    border-spacing: 1px;
-    background-color: black;
-    border: 3px solid black;
-    
+function setPixelColor(pixel)
+{
+  pixel.style.backgroundColor = penColor;
 }
 
-.row {
-  display: table-row;
-}
+var penColor = 'black';
 
-.pixel {
-  display: table-cell;
-  background-color: white;
-  width: 20px;
-  height: 20px;
-}
-
-.pen {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid black;
+function setPenColor(pen)
+{
+  penColor = pen;
 }
